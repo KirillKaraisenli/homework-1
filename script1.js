@@ -20,3 +20,18 @@ console.log(myNull);
 
 let UserName = prompt("Введіть своє ім'я:");
 alert(`Привіт, ${UserName}`);
+
+let isConfirmed = confirm("Ви підтверджуєте дію?");
+if (isConfirmed) {
+  alert("Дякую за підтвердження!");
+} else {
+  alert("Дію відмінено!");
+}
+
+alert("Увага! Ця дія може бути небезпечною!")
+let isAlerted = confirm("Ви впевнені, що хочете виконати цю дію?");
+if (isAlerted) {
+  alert("Дякую за підтвердження!");
+} else {
+  alert("Дію відмінено!");
+}
